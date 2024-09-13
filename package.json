@@ -8,12 +8,16 @@
     "build": "eleventy"
   },
   "keywords": [],
-  "author": "",
+  "author": "BaDjinn@Magic-Solutions",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "@11ty/eleventy-img": "^4.0.2",
+    "bootstrap": "^5.3.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "undici": "^6.19.8"
   }
 }
