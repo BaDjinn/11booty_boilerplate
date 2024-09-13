@@ -62,9 +62,12 @@ async function tubeFrame(
 
       let imageAttributes = {
         alt: `Video ${videoId} Thumbnail`,
-        sizes: "100vw, auto",
-        style: "",
+        sizes: "(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw",
+        class: "img-fluid",
+        style: "max-width: 100%; height: auto;"  // Usa Bootstrap per la responsività
       };
+      
+      
 
       // Genera l'HTML usando le versioni delle immagini generate
       let imageHtml = Image.generateHTML(metadata, imageAttributes);
