@@ -31,6 +31,7 @@ module.exports = function (eleventyConfig) {
   // Configurazione di base
   eleventyConfig.addFilter("year", () => `${new Date().getFullYear()}`);
   eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/404.html");
   eleventyConfig.addNunjucksAsyncShortcode("EleventyImage", imageShortcode);
   eleventyConfig.addPassthroughCopy("./src/assets/images");
   // Shortcode per iframe di YouTube con supporto per la thumbnail
