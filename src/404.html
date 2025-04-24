@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina non trovata - 404</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #e74c3c;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .sad-image {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 1rem auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .home-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.8rem 1.5rem;
+            background-color: #2ecc71;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .home-link:hover {
+            background-color: #27ae60;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>404 - Pagina non trovata</h1>
+    <p>Ops! Sembra che ci siamo persi qualcosa...</p>
+    
+    <!-- Immagine triste da API esterna -->
+    <img src="https://www.thiswaifudoesnotexist.net/example-300.jpg" alt="Volto triste" class="sad-image">
+    <p>Keanu Reeves è triste perché non trova questa pagina</p>
+    
+    <p>Torna alla <a href="/" class="home-link">pagina principale</a> e riproviamo insieme</p>
+    
+    <script>
+        // Reindirizzamento automatico dopo 10 secondi
+        setTimeout(function() {
+            window.location.href = "/";
+        }, 10000);
+    </script>
+</body>
+</html>
