@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include "head.njk" %}
+  {% include "head.html" %}
   <body>
-    {% include "navBar.njk" %}
+    {% include "navBar.html" %}
     <div class="container mt-4">
       {{ content | safe }}
     </div>
-    {% include "footer.njk" %}
-    {% include "bottom.njk" %}
+    {% include "footer.html" %}
+    {% include "bottom.html" %}
   </body>
 </html>
