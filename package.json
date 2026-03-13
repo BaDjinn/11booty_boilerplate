@@ -1,23 +1,23 @@
 {
-  "name": "11ty-bootstrap_boilerplate",
-  "version": "1.0.0",
-  "description": "My attempt at a 11ty+bootstrap boilerplate for future sites.",
-  "main": "index.js",
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
-  },
-  "keywords": [],
-  "author": "BaDjinn@Magic-Solutions",
-  "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
-  },
-  "dependencies": {
-    "@11ty/eleventy-img": "^4.0.2",
-    "bootstrap": "^5.3.3",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7",
-    "undici": "^6.19.8"
-  }
+	"name": "11ty-bootstrap_boilerplate",
+	"version": "1.0.0",
+	"description": "My attempt at a 11ty+bootstrap boilerplate for future sites.",
+	"main": "index.js",
+	"scripts": {
+		"start": "eleventy --serve --incremental",
+		"build": "eleventy"
+	},
+	"keywords": [],
+	"author": "BaDjinn@Magic-Solutions",
+	"license": "ISC",
+	"devDependencies": {
+		"@11ty/eleventy": "3.1.2"
+	},
+	"dependencies": {
+		"@11ty/eleventy-img": "^4.0.2",
+		"bootstrap": "5.3.8",
+		"fs": "^0.0.1-security",
+		"path": "^0.12.7",
+		"undici": "^6.19.8"
+	}
 }
