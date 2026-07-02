@@ -1,16 +1,15 @@
 ---
 layout: base.njk
 title: Home
+description: Template base Eleventy con Bootstrap 5.
 ---
 
-<p class="h2">Benvenuto nel mio sito 11ty</p>
+<h1 class="h2">Benvenuto nel mio sito 11ty</h1>
 
-Questo è un esempio di un sito statico creato con 11ty e Bootstrap.
-<div class="row">
-  <div class="col-sm"></div>
-  <div class="col-12 col-md-6">
-    <div class="media">{% tubeFrame "dQw4w9WgXcQ", true %}</div>
+<p>Questo è un esempio di sito statico creato con Eleventy e Bootstrap 5.</p>
+
+<div class="row justify-content-center">
+  <div class="col-12 col-md-8 col-lg-6">
+    {% tubeFrame "dQw4w9WgXcQ", true %}
   </div>
-  
-  <div class="col-sm"></div>
 </div>

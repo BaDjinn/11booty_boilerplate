@@ -1,19 +1,46 @@
-body {
-  font-family: Arial, sans-serif;
+:root {
+	color-scheme: light dark;
 }
 
-#t1 {
-  color: red;
+body {
+	min-height: 100vh;
 }
-#t2 {
-  color: orange;
+
+img,
+iframe {
+	max-width: 100%;
 }
-#t3 {
-  color: black;
+
+.brand-glyph {
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1;
 }
-#t4 {
-  color: green;
+
+.brand-glyph-red {
+	color: red;
 }
-#t5 {
-  color: blue;
+
+.brand-glyph-yellow {
+	color: #b58900;
+}
+
+.brand-glyph-black {
+	color: black;
+}
+
+.brand-glyph-green {
+	color: green;
+}
+
+.brand-glyph-blue {
+	color: blue;
+}
+
+.tube-frame-preview picture,
+.tube-frame-preview img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: var(--bs-border-radius);
 }

@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="{{ lang | default('it') }}">
   {% include "head.njk" %}
   <body>
     {% include "navBar.njk" %}
-    <div class="container mt-4">
+    <main id="main-content" class="container py-4">
       {{ content | safe }}
-    </div>
+    </main>
     {% include "footer.njk" %}
     {% include "bottom.njk" %}
   </body>
